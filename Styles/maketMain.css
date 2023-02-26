@@ -1,0 +1,33 @@
+* {    
+    margin-top: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 0;
+}
+
+header {
+    margin: 12px;
+    padding: 12px;
+}
+
+main {
+    margin-right:200px;
+    margin-left: 242px;
+}
+
+nav {
+    float: left;
+    min-width: 200px;
+    padding: 6px;
+    margin-left: 12px;
+    top: 12px;
+    position: sticky;
+}
+
+footer {
+    width: 100%;
+}
+
+header, nav {
+    border: 3px solid;
+}
