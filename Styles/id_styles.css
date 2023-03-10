@@ -1,0 +1,8 @@
+#centre {
+    text-align: center;
+}
+
+#selected {
+    border: 2px solid rgb(30, 144, 167);
+    text-align: center;
+}

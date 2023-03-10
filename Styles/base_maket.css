@@ -3,6 +3,7 @@
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 0;
+    text-align: justify;
 }
 
 header {
@@ -10,9 +11,19 @@ header {
     padding: 12px;
 }
 
+body {
+    background-color: #252525;
+}
+
 main {
     margin-right:200px;
     margin-left: 242px;
+}
+
+main section {
+    border: 3px solid;    
+    color: rgb(197, 197, 197);
+    margin-bottom: 10px;
 }
 
 nav {
@@ -26,6 +37,10 @@ nav {
 
 footer {
     width: 100%;
+}
+
+header, footer, nav, nav a {
+    color: rgba(255, 255, 0, 0.69);
 }
 
 header, nav {
