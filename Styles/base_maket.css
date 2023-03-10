@@ -3,7 +3,7 @@
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 0;
-    text-align: justify;
+    word-break:break-all;
 }
 
 header {
@@ -24,6 +24,10 @@ main section {
     border: 3px solid;    
     color: rgb(197, 197, 197);
     margin-bottom: 10px;
+}
+
+h1 {
+    animation: move 7s infinite linear alternate;
 }
 
 nav {

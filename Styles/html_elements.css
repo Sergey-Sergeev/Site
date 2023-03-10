@@ -16,6 +16,10 @@ li {
     margin-left: 20px;
 }
 
+li:not(#selected) {
+    color: #47983f;
+}
+
 nav ul {
     padding: 0;
     margin: 0;
